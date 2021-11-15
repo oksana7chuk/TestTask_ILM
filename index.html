@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="./styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Il Makiage</title>
+  </head>
+  <body class="container">
+    <section class="logo">
+      <img
+        id="logo_img"
+        class="logo__image"
+        src="./images/logo_Google.png"
+        srcset=""
+        alt="logo-google-image"
+      />
+    </section>
+    <section id="search" class="search">
+      <div class="search__box">
+        <img
+          class="search__box--searchIcon"
+          src="./images/search-icon.png"
+          alt=""
+        />
+        <input type="search" class="search__box--input" name="search" />
+        <img
+          class="search__box--keyboardIcon"
+          src="./images/keyboard_icon.png"
+          alt=""
+        />
+        <img class="search__box--micIcon" src="./images/mic_icon.png" alt="" />
+      </div>
+      <div class="search__buttons">
+        <button type="submit" class="search__buttons--btn">Пошук Google</button>
+        <button type="submit" class="search__buttons--btn" id="btn_luckyMe">
+          Мені пощастить
+        </button>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="footer__details">
+        Мова Google:
+        <a href="">English</a>
+        <a href="">русский</a>
+      </div>
+    </footer>
+    <script src="./index.js" type="module"></script>
+  </body>
+</html>
